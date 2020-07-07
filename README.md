@@ -1,5 +1,6 @@
 # PatchGUI
 A cross-platform GUI application for creating and applying patches to binary files.
+
 [Video Demonstration](https://www.fullstackglobal.com/patchgui-tool/)
 
 ## Releases
