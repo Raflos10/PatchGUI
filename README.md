@@ -1,6 +1,9 @@
 # PatchGUI
 A cross-platform GUI application for creating and applying patches to binary files.
 
+## Releases
+[Releases Page](https://github.com/Raflos10/PatchGUI/releases/)
+
 ## Creating a Patch
 To create a patch for a file, the source file and new file must both be supplied.
 
