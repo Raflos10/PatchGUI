@@ -55,6 +55,12 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
   ui->setupUi(this);
 
+  // set about page label
+  QLabel *aboutLabel = this->findChild<QLabel *>("aboutLabel");
+  aboutLabel->setOpenExternalLinks(true);
+  aboutLabel->setText(
+      "<a href=\"https://github.com/Raflos10/PatchGUI \">PatchGUI Utility</a>");
+
   // assign pointer elements (create)
   createElements->oldFileButton =
       findChild<QPushButton *>("create_sourceFileButton");
