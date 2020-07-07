@@ -26,10 +26,23 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    include/bsdifflib/bzip2/blocksort.c \
+    include/bsdifflib/bzip2/bzlib.c \
+    include/bsdifflib/bzip2/compress.c \
+    include/bsdifflib/bzip2/crctable.c \
+    include/bsdifflib/bzip2/decompress.c \
+    include/bsdifflib/bzip2/huffman.c \
+    include/bsdifflib/bzip2/randtable.c \
+    include/bsdifflib/bsdifflib.c \
+    include/bsdifflib/bspatchlib.c
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    include/bsdifflib/bzip2/bzlib.h \
+    include/bsdifflib/bzip2/bzlib_private.h \
+    include/bsdifflib/bsdifflib.h \
+    include/bsdifflib/bspatchlib.h
 
 FORMS += \
         mainwindow.ui
